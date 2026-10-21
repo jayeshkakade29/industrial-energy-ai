@@ -1,0 +1,45 @@
+{
+  "prompt":"Find unusual energy consumption, forecast tomorrow, and suggest a target.",
+  "latest_data_date":"2026-10-21",
+  "forecast_date":"2026-10-22",
+  "forecast_kwh":1826.1,
+  "proposed_target_kwh":1771.31,
+  "data_quality":{
+    "rows_before":811,
+    "rows_after":810,
+    "missing_before":2,
+    "missing_after":0
+  },
+  "machine_analysis":[
+    {
+      "date":1792540800000,
+      "machine":"M02",
+      "energy_kwh":790.76,
+      "production_units":300.34,
+      "baseline_kwh":658.04,
+      "change_kwh":132.72,
+      "change_pct":20.17,
+      "kwh_per_unit":2.63
+    },
+    {
+      "date":1792540800000,
+      "machine":"M01",
+      "energy_kwh":567.45,
+      "production_units":317.52,
+      "baseline_kwh":557.24,
+      "change_kwh":10.21,
+      "change_pct":1.83,
+      "kwh_per_unit":1.79
+    },
+    {
+      "date":1792540800000,
+      "machine":"M03",
+      "energy_kwh":498.94,
+      "production_units":330.72,
+      "baseline_kwh":491.96,
+      "change_kwh":6.98,
+      "change_pct":1.42,
+      "kwh_per_unit":1.51
+    }
+  ]
+}
